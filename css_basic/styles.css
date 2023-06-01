@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: bisque;
+    font-style: italic;
+    
+  }
+  
+aside {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+footer{
+  background-color: palegreen;
+  text-align: center;
+}
+
+header{
+  background-color:dimgrey;
+}
+  
+  
+  
+  
+  
+  
+  
